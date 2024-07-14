@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My OS</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+      }
+      .app {
+        width: 800px;
+        height: 600px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+        overflow: hidden;
+      }
+      .taskbar {
+        height: 30px;
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+      }
+      .start-button {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-left: 5px;
+      }
+      .taskbar-icons {
+        display: flex;
+        align-items: center;
+      }
+      .icon {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-left: 5px;
+      }
+      .start-menu {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        width: 200px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 10px;
+        display: none;
+      }
+      .start-menu-header {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .start-menu-items {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .item {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        cursor: pointer;
+      }
+      .item:hover {
+        background-color: #f0f0f0;
+      }
+      .explorer {
+        position: absolute;
+        top: 30px;
+        left: 200px;
+        width: 600px;
+        height: 500px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 10px;
+        display: none;
+      }
+      .explorer-header {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .explorer-content {
+        padding: 10px;
+      }
+      .explorer-content ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .explorer-content li {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        cursor: pointer;
+      }
+      .explorer-content li:hover {
+        background-color: #f0f0f0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="index.js"></script>
+  </body>
+</html>

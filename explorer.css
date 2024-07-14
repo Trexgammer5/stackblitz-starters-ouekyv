@@ -1,0 +1,37 @@
+.explorer {
+  position: absolute;
+  top: 30px;
+  left: 200px;
+  width: 600px;
+  height: 500px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: none;
+}
+
+.explorer-header {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.explorer-content {
+  padding: 10px;
+}
+
+.explorer-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.explorer-content li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.explorer-content li:hover {
+  background-color: #f0f0f0;
+}

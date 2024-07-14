@@ -1,0 +1,32 @@
+.start-menu {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 200px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: none;
+}
+
+.start-menu-header {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.start-menu-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.start-menu-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.start-menu-item:hover {
+  background-color: #f0f0f0;
+}
